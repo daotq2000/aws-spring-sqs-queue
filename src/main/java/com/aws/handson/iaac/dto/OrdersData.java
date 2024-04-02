@@ -4,8 +4,8 @@ package com.aws.handson.iaac.dto;
 import java.util.Date;
 import java.util.List;
 
-import com.aws.handson.iaac.model.Customer;
-import com.aws.handson.iaac.model.OrderItem;
+import com.aws.handson.iaac.entity.Customer;
+import com.aws.handson.iaac.entity.OrderItem;
 
 
 

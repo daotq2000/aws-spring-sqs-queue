@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.aws.handson.iaac.dao.IOrderItemRepository;
 import com.aws.handson.iaac.dto.OrderItemData;
-import com.aws.handson.iaac.model.OrderItem;
+import com.aws.handson.iaac.entity.OrderItem;
 
 
 

@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 
 import com.aws.handson.iaac.dao.ICustomerRepository;
 import com.aws.handson.iaac.dto.CustomerData;
-import com.aws.handson.iaac.model.Customer;
+import com.aws.handson.iaac.entity.Customer;
 
 
 

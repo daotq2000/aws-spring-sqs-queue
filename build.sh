@@ -1,0 +1,1 @@
+/bin/bash ./mvnw  -DskipTests clean package
