@@ -16,6 +16,7 @@
 	<description> Spring Ecommerce Project hands-on AWS</description>
 	<properties>
 		<java.version>11</java.version>
+		<springfox-swagger2.version>2.9.2</springfox-swagger2.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -66,21 +67,7 @@
 			<artifactId>reactor-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
-			<groupId>io.springfox</groupId>
-			<artifactId>springfox-swagger2</artifactId>
-			<version>3.0.0</version>
-		</dependency>
-		<dependency>
-			<groupId>io.springfox</groupId>
-			<artifactId>springfox-boot-starter</artifactId>
-			<version>3.0.0</version>
-		</dependency>
-		<dependency>
-			<groupId>io.springfox</groupId>
-			<artifactId>springfox-swagger-ui</artifactId>
-			<version>3.0.0</version>
-		</dependency>
+
 		<dependency>
 			<groupId>com.amazonaws</groupId>
 			<artifactId>aws-java-sdk</artifactId>
@@ -91,6 +78,8 @@
 			<artifactId>spring-boot-starter-actuator</artifactId>
 			<version>2.5.12</version>
 		</dependency>
+
+
 		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-actuator -->
 		<!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-s3 -->
 
